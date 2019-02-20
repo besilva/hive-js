@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Hive Javascript</title>
+</head>
+<body>
+
+    <div class="container" id="box">
+        <div class="card">
+            <div class="card-content">
+                <p class="title" id="titulo"></p>
+                
+            </div>
+            <footer class="card-footer">
+                <p class="card-footer-item" id="author">
+                    Autor: <span id="autor"></span>
+                </p>
+                <p class="card-footer-item">
+                      <span id="autor">Grandes poderes vem com grandes responsabilidades</span>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabs is-centered">
+            <ul>
+                <li class="is-active">
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                        <span>Titulo</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                        <span>Autor</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                        <span>Painel</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+                <label class="label">Texto</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <p class="control is-expanded has-icons-left">
+                        <input class="input" type="text" id="text">
+                        <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>
